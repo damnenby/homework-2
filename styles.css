@@ -1,0 +1,161 @@
+.wrapper{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+
+}
+
+.task1{
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.task1 li{
+    padding: 5px;
+    background-color: aquamarine;
+    border: solid;
+    border-color: grey;
+    border-width: 3px;
+    font-size: 50px;
+    float: left;
+    font-family: 'Arial';
+    transition: background-color 200ms;
+}
+
+.task1 li:hover{
+    background-color: rgb(105, 211, 176);
+}
+
+.task1 li:active{
+    background-color: rgba(127, 255, 212, 0.448);
+}
+
+.task2 li{
+    color: #0E1116;
+}
+
+.task2 li:nth-child(3n-2){
+    background-color: #88292F;
+}
+
+
+
+.task2 li:nth-child(3n-1){
+    background-color: #5DB7DE;
+}
+
+
+.task2 li:nth-child(3n){
+    background-color: #0D5D56;
+}
+
+.task3{
+    list-style:none;
+}
+
+.task3 li::before{
+    content: "\2192";
+}
+
+body{
+    margin: 0px;
+}
+
+.task4{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img.jpg) ;
+}
+
+.task5{
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    margin: 15px;
+    height: 400px;
+    width: 400px;
+    background-color:#424242;
+}
+
+.section1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #88292F;
+}
+
+.section2{
+    width:100px;
+    height: 100px;
+
+    position: absolute;
+    left: 150px;
+    background-color: blue;
+}
+
+.section3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    background-color: aquamarine;
+}
+
+.section4{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    background-color: green;
+}
+
+.section5{
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 150px;
+    position: absolute;
+    background-color: orange;
+}
+
+.section6{
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 300px;
+    position: absolute;
+    background-color: pink;
+}
+
+.section7{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    position: absolute;
+    background-color: rgb(1, 159, 244);
+}
+
+.section8{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 150px;
+    position: absolute;
+    background-color: rgb(166, 0, 255);
+}
+
+.section9{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 300px;
+    position: absolute;
+    background-color: rgb(161, 167, 0);
+}
+
